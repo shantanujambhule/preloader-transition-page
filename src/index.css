@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.learn {
+    font-size: 0.75rem; /* Equivalent to Tailwind's text-xs */
+    position: absolute;
+}
+.nav-item {
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .group:hover .nav-item {
+    color: gray;
+  }
+  
+  .nav-item:hover {
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+  }
+  .learn-2{
+    font-size: 84.1745px;
+    font-weight: 400 
+  }
+  .learn-3{
+    position: absolute;
+    z-index: 10;
+    height: 1px;
+    width: 60%;
+    left:20%;
+    margin-top: 10px;
+    background-color: black;
+    
+  }
